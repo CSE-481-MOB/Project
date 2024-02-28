@@ -1,6 +1,5 @@
 -module(unit_tests).
 
-
 -ifdef(EUNIT).
 -include_lib("eunit/include/eunit.hrl").
 
