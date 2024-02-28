@@ -2,9 +2,6 @@
 
 
 -ifdef(EUNIT).
-%%
-%% Unit tests go here. 
-%%
 -include_lib("eunit/include/eunit.hrl").
 
 request() -> 
