@@ -3,13 +3,13 @@
 
 
 request() -> 
-  1.
+  request.
 
 deliver() ->
-  2.
+  deliver.
 
 update() ->
-  3.
+  update.
 
 transfer() ->
-  4.
+  transfer.

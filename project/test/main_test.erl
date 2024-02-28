@@ -3,25 +3,21 @@
 
 
 request_test() ->
-  Expected = 1,
+  Expected = request,
   Actual = main:request(),
-  io:format("Expected: ~p, Actual: ~p~n", [Expected, Actual]),
   ?assertEqual(Expected, Actual).
 
 deliver_test() ->
-  Expected = 2,
+  Expected = deliver,
   Actual = main:deliver(),
-  io:format("Expected: ~p, Actual: ~p~n", [Expected, Actual]),
   ?assertEqual(Expected, Actual).
 
 update_test() ->
-  Expected = 3,
+  Expected = update,
   Actual = main:update(),
-  io:format("Expected: ~p, Actual: ~p~n", [Expected, Actual]),
   ?assertEqual(Expected, Actual).
 
 transfer_test() ->
-  Expected = 4,
+  Expected = transfer,
   Actual = main:transfer(),
-  io:format("Expected: ~p, Actual: ~p~n", [Expected, Actual]),
   ?assertEqual(Expected, Actual).  
