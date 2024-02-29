@@ -1,25 +1,23 @@
-module(unit_tests)
-
-
--ifdef(EUNIT).
-%%
-%% Unit tests go here. 
-%%
+-module(main_test).
 -include_lib("eunit/include/eunit.hrl").
 
+
 request_test() ->
-  {
-    ?_assertEqual()
-  }
+  Expected = request,
+  Actual = main:request(),
+  ?assertEqual(Expected, Actual).
+
 deliver_test() ->
-  {
-    ?_assertEqual()
-  }
+  Expected = deliver,
+  Actual = main:deliver(),
+  ?assertEqual(Expected, Actual).
+
 update_test() ->
-  {
-    ?_assertEqual()
-  }
+  Expected = update,
+  Actual = main:update(),
+  ?assertEqual(Expected, Actual).
+
 transfer_test() ->
-  {
-    ?_assertEqual()
-  }
+  Expected = transfer,
+  Actual = main:transfer(),
+  ?assertEqual(Expected, Actual).  
