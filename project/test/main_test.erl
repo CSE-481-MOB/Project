@@ -13,7 +13,7 @@ deliver_test() ->
   ?assertEqual(Expected, Actual).
 
 update_test() ->
-  Expected = {package_id, "Basic Package", "Singapore", "Rexburg", "10:05:56"},
+  Expected = {011, "Basic Package", "Singapore", "Rexburg", "10:05:56"},
   Actual = main:update(),
   ?assertEqual(Expected, Actual).
 
