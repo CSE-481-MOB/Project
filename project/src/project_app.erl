@@ -3,6 +3,7 @@
 %% @end
 %%%-------------------------------------------------------------------
 
+-module(Project_app).
 -module(project_app).
 
 -behaviour(application).
@@ -10,6 +11,7 @@
 -export([start/2, stop/1]).
 
 start(_StartType, _StartArgs) ->
+    Project_sup:start_link().
     project_sup:start_link().
 
 stop(_State) ->

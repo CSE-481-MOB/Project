@@ -1,4 +1,5 @@
 Project
+project
 =====
 
 An OTP application
@@ -6,4 +7,5 @@ An OTP application
 Build
 -----
 
+    $ rebar3 compile
     $ rebar3 compile
