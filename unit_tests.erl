@@ -21,5 +21,7 @@ update_test() ->
   }
 transfer_test() ->
   {
-    ?_assertEqual()
+    Expected = transfer,
+  Actual = main:transfer(),
+  ?assertEqual(Expected, Actual).  
   }
