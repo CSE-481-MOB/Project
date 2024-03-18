@@ -23,4 +23,3 @@ transfer_test() ->
   Expected = transfer,
   Actual = main:transfer(),
   ?assertEqual(Expected, Actual).  
-  
