@@ -3,7 +3,6 @@
 %% @end
 %%%-------------------------------------------------------------------
 
--module(Project_sup).
 -module(project_sup).
 
 -behaviour(supervisor).
